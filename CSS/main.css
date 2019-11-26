@@ -1,5 +1,127 @@
 html{
   font-family: 'Roboto', serif;
+}
+
+
+header {
+  width: 100vw
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .header-button{
+  background-color: #4DC3F9;
+  width: 235px;
+  height: 40px;
+  margin: 30px auto;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+display: block;
+}
+header .header-logo{
+  width: 150px;
+  margin: 30px auto;
+  display: block;
 
 }
-#bootcamp-figures { background-color: #00B4FE}
+.cohort-picture{
+  width: 100vw;
+  height: 410px;
+  background-image: url("../img/squad.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+h1{
+font-size: 32px;
+font-family: 'roboto_mono', sans-serif;
+text-align: center;
+color: #2D354C
+}
+
+.intro-program{
+  font-size: 18px;
+  color: #818693;
+  line-height: 30px;
+}
+
+#bootcamp-program{
+  padding: 0 35px;
+
+}
+
+.card-program{
+  background-color: #F8F8F8;
+  border-radius: 6px;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 35px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-time{
+  color: #EC3A35;
+  font-size: 14px
+}
+
+.card-title{
+  font-size: 28px;
+  line-height: 30px;
+  font-family: 'roboto_mono', sans-serif;
+}
+
+.card-schedule{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+color: #818693;
+
+}
+
+
+#bootcamp-figures {
+  background-color: #4DC3F9;
+  padding: 30px;
+}
+
+.figures-title {
+height: 67px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+font-family: 'roboto_mono', sans-serif;
+color: #FFFFFF;
+}
+
+.figures-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.figures-wrapper .figure{
+  flex: 0 0 50%;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'roboto_mono', sans-serif;
+  margin-bottom: 20px;
+
+}
+
+.figures-wrapper .figure span {
+  font-size: 20px;
+  display: block;
+  font-family: 'roboto_mono', sans-serif;
+  text-transform: uppercase;
+}
